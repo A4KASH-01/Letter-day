@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>DEAR NEHA.</strong>
+                        <p>
+                           
+                        𝑾𝒉𝒆𝒏 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒃𝒚 𝒎𝒚 𝒔𝒊𝒅𝒆, 𝑰 𝒂𝒎 𝒐𝒏 𝒕𝒐𝒑 𝒐𝒇 𝒕𝒉𝒊𝒔 𝒘𝒐𝒓𝒍𝒅. 𝑾𝒉𝒆𝒏 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒉𝒐𝒍𝒅𝒊𝒏𝒈 𝒎𝒚 𝒉𝒂𝒏𝒅, 𝑰 𝒌𝒏𝒐𝒘 𝒕𝒉𝒂𝒕 𝑰 𝒄𝒂𝒏 𝒂𝒄𝒉𝒊𝒆𝒗𝒆 𝒕𝒉𝒆 𝒊𝒎𝒑𝒐𝒔𝒔𝒊𝒃𝒍𝒆 𝒃𝒆𝒄𝒂𝒖𝒔𝒆 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒕𝒉𝒆𝒓𝒆 𝒕𝒐 𝒃𝒆𝒍𝒊𝒆𝒗𝒆 𝒊𝒏 𝒎𝒆. 𝒀𝒐𝒖 𝒂𝒓𝒆 𝒕𝒉𝒆 𝒐𝒏𝒆 𝒇𝒐𝒓 𝒎𝒆 𝒂𝒏𝒅 𝒚𝒐𝒖 𝒘𝒊𝒍𝒍 𝒂𝒍𝒘𝒂𝒚𝒔 𝒃𝒆 𝒕𝒉𝒆 𝒐𝒏𝒍𝒚 𝒐𝒏𝒆 𝒇𝒐𝒓 𝒎𝒆. 𝑰 𝒑𝒓𝒐𝒎𝒊𝒔𝒆 𝒕𝒐 𝒌𝒆𝒆𝒑 𝒍𝒐𝒗𝒊𝒏𝒈 𝒚𝒐𝒖 𝒆𝒗𝒆𝒓𝒚 𝒅𝒂𝒚. 𝑳𝒆𝒕'𝒔 𝒎𝒆𝒆𝒕 𝒔𝒐𝒐𝒏.e omnis minus maiores laboriosam, facere in beatae esse. 
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
